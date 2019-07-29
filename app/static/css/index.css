@@ -1,0 +1,66 @@
+body {
+    background: black
+      color: #9300d4
+}
+.navbar {
+    background: black;
+    color: #2200af;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    color: steelblue;
+    display: block;
+    margin: 10px;
+}
+img {
+    height: 300px;
+    width: 250px;
+    float: right;
+    position: relative;
+    bottom: 3em;
+}
+img::after {
+    clear: left
+}
+.article-container {
+    padding-top: 20px;
+    height: 350px;
+    padding: 0;
+}
+.container {
+    /* border: 1px solid black; */
+}
+.article {
+    margin-bottom: 50px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: flex-start;
+}
+.nav li {
+    transition: background 0.1s,color 10s;
+}
+.nav li:hover {
+    background: #9712d1;
+}
+li a {
+    color: #2700fc;
+    transition: color 2s;
+}
+li a:hover {
+    color: black
+}
+.headline {
+    display: inline-block;
+    margin-left: 10%;
+    border-bottom: 2px solid steelblue;
+}
+.navbar-brand {
+    color: white
+}
+span.icon-bar {
+    color: white
+}
